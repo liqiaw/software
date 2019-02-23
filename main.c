@@ -1,12 +1,12 @@
-#include "tets.h"
+#include "task.h"
 
 
 void main(void)
 {
-	sys_init();
+	task_init();
 	
 	while(1)
 	{
-		sys_task();
+		task_thread();
 	}	
 }
